@@ -83,7 +83,7 @@ void Robot1 :: dfs(int x,int y,int nr)
     for(int i=0; i<n; i++)
         for(int j=0; j<m; j++)
             visited[i][j]=0;
-    int st[]= {-1,1,0,0};
+    int st[]= {1,-1,0,0};
     int dr[]= {0,0,1,-1};
     int **xa,**ya;
     xa=new int *[n];
